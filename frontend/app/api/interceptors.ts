@@ -7,7 +7,7 @@ import { AuthService } from '@/services/auth/auth.service'
 import { errorCatch } from './api.helpers'
 
 const instance = axios.create({
-	baseURL: "http://localhost:5000/api",
+	baseURL: "http://cinemalife.ru/api",
 	headers: {
 		'Content-Type': 'application/json',
 	},
@@ -50,7 +50,7 @@ instance.interceptors.response.use(
 export default instance
 
 export const axiosClassic = axios.create({
-	baseURL: "http://localhost:5000/api",
+	baseURL: "http://cinemalife.ru/api",
 	headers: {
 		'Content-Type': 'application/json',
 	},

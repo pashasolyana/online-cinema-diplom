@@ -62,7 +62,7 @@ const Profile: FC = () => {
 					/>
 				)}
 
-				<Button>Update</Button>
+				<Button>Обновить</Button>
 			</form>
 		</Meta>
 	)

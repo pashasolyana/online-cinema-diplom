@@ -29,7 +29,7 @@ const GenreList: FC = () => {
 			/>
 			<AdminTable
 				tableItems={data || []}
-				headerItems={['Name', 'Slug']}
+				headerItems={['Наименование', 'Ссылка']}
 				isLoading={isLoading}
 				removeHandler={deleteAsync}
 			/>
